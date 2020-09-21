@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+        body {
+            background: rgb(125, 198, 205);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgb(239, 80, 41);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        nav h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+            margin: 0;
+        }
+        nav ul {
+            list-style-image: none;
+        }
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        h2, h3 {
+            margin: 0px;
+        }
+    </style>
+    </head>
+    
+    <body>
+      <div id="all-contents"> 
+        <nav>
+            <h1>Richard's Hoodi3 Website</h1>
+            <ul>
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="sidebar">
+                <img src="https://dw3jhbqsbya58.cloudfront.net/rosters/dda64431-2648-4256-9dd3-2e626fa044dd/3/8/1/381e957f-57df-e911-80cd-fa7ca2e6058b/thumbnail.jpg?version=637190431557985258">
+                </div>
+
+                <div class="content">
+                <h2>Richard Casler </h2>
+                <p>Student at Lakeshore High </p>
+                <div id="interests">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Basketball</li>
+                        <li>2K</li>
+                        <li>Sleep</li>
+                    </ul>
+                </div>
+                </div>
+
+        </main>
+    </div>
+    </body>
+</html>
